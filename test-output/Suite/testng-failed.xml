@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test-IE(failed)">
+    <parameter name="browserName" value="IE"/>
+    <classes>
+      <class name="selenium_Grid.Selenium_Grid_Concept">
+        <methods>
+          <include name="testGooglePageTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- selenium_Grid.Selenium_Grid_Concept -->
+    </classes>
+  </test> <!-- Test-IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11871" started-at="2020-09-02T15:31:07Z" finished-at="2020-09-02T15:31:19Z">
+    <groups>
+    </groups>
+    <test name="Test-chrome" duration-ms="11871" started-at="2020-09-02T15:31:07Z" finished-at="2020-09-02T15:31:19Z">
+      <class name="selenium_Grid.Selenium_Grid_Concept">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:selenium_Grid.Selenium_Grid_Concept@4501b7af]" name="setUp" is-config="true" duration-ms="9215" started-at="2020-09-02T15:31:07Z" finished-at="2020-09-02T15:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:selenium_Grid.Selenium_Grid_Concept@4501b7af]" name="testGooglePageTitle" duration-ms="2451" started-at="2020-09-02T15:31:16Z" finished-at="2020-09-02T15:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Grid.Selenium_Grid_Concept@4501b7af]" name="tearDown" is-config="true" duration-ms="152" started-at="2020-09-02T15:31:18Z" finished-at="2020-09-02T15:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_Grid.Selenium_Grid_Concept -->
+    </test> <!-- Test-chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
